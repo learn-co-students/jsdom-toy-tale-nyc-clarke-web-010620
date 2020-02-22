@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const addToys = (toy) => {
     let div = document.createElement("div")
-    div.class = "card"
+    div.className = "card"
     div.dataset.id = toy.id
     div.innerHTML = `
     <h2>${toy.name}</h2>
